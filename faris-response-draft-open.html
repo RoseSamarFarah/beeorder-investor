@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BeeOrder — Response to Diligence Questions</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#141414; --surface:#1b1a19; --card:#232221; --line:#343230; --line2:#2a2827;
+  --ink:#ffffff; --ink2:#a5a09b; --ink3:#726d68;
+  --accent:#F07E22; --warn:#eda100; --good:#199e70;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+  font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:800px;margin:0 auto;padding:0 24px}
+
+header.mast{border-bottom:1px solid var(--line);padding:26px 0 18px;margin-bottom:0}
+.mrow{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.bo{font-size:17px;font-weight:700;letter-spacing:-.02em}
+.bo span{color:var(--accent)}
+.who{font-size:11.5px;color:var(--ink3)}
+.draft{margin-left:auto;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;
+  padding:3px 9px;border-radius:3px;background:rgba(240,126,34,.13);color:#f0954e;
+  border:1px solid rgba(240,126,34,.36)}
+
+.intro{padding:40px 0 6px}
+.eyebrow{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);
+  margin:0 0 12px;font-weight:600}
+h1{font-size:clamp(28px,4vw,38px);line-height:1.08;letter-spacing:-.03em;margin:0 0 18px;
+  font-weight:700;text-wrap:balance}
+.lede{font-size:15.5px;color:var(--ink2);margin:0 0 14px;max-width:68ch}
+.lede b{color:var(--ink);font-weight:600}
+
+h2.sec{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);
+  margin:44px 0 6px;font-weight:600;border-top:1px solid var(--line);padding-top:24px}
+
+.qa{padding:22px 0;border-bottom:1px solid var(--line2)}
+.qa:last-of-type{border-bottom:none}
+.qh{display:flex;gap:13px;align-items:flex-start;margin:0 0 12px}
+.qn{flex:0 0 auto;font-family:var(--mono);font-size:11.5px;color:var(--accent);
+  border:1px solid rgba(240,126,34,.35);border-radius:4px;padding:2px 7px;margin-top:3px}
+.qt{font-size:15.5px;font-weight:600;line-height:1.45;color:var(--ink);text-wrap:balance}
+.pend{margin-left:auto;flex:0 0 auto;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  padding:3px 8px;border-radius:3px;font-weight:700;white-space:nowrap;
+  background:rgba(237,161,0,.13);color:#e0ab3a;border:1px solid rgba(237,161,0,.36)}
+.a{color:var(--ink2);padding-left:47px}
+.a p{margin:0 0 11px}
+.a p:last-child{margin-bottom:0}
+.a b{color:var(--ink);font-weight:600}
+.a .follow{color:#c9ac72;font-size:14px}
+.docs{font-size:12.5px;color:var(--ink3);margin-top:11px;font-family:var(--mono)}
+.docs b{color:var(--ink2);font-weight:400}
+@media(max-width:640px){.a{padding-left:0}.qh{gap:10px}}
+
+table.t{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0 4px}
+table.t th{text-align:right;color:var(--ink3);font-weight:600;font-size:10px;
+  letter-spacing:.07em;text-transform:uppercase;padding:0 9px 7px;border-bottom:1px solid var(--line)}
+table.t th:first-child,table.t td:first-child{text-align:left;padding-left:0}
+table.t td{text-align:right;padding:7px 9px;border-bottom:1px solid var(--line2);
+  font-variant-numeric:tabular-nums;color:var(--ink)}
+table.t td:first-child{color:var(--ink2)}
+table.t tr:last-child td{border-bottom:none}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+footer{border-top:1px solid var(--line);margin-top:52px;padding:24px 0 48px;
+  color:var(--ink3);font-size:11.5px}
+footer p{margin:0 0 8px}
+footer p:last-child{margin:0}
+</style></head>
+<body>
+<header class="mast"><div class="wrap mrow">
+  <span class="bo">BEE<span>ORDER</span></span>
+  <span class="who">Response to diligence questions &middot; 4 September 2026</span>
+  <span class="draft">Draft for review &mdash; not yet sent</span>
+</div></header>
+
+<div class="wrap">
+<div class="intro">
+  <p class="eyebrow">Series A &middot; Confidential</p>
+  <h1>Response to your<br>diligence questions</h1>
+  <p class="lede">Faris &mdash; thank you for these, and apologies for the delay in coming back to you.
+  Answers below follow your numbering. They reflect the completed 2024 audit and a rebuilt financial
+  model, so several figures have moved since you saw the deck in July.</p>
+  <p class="lede">Ten items are marked <b>following</b>. Those are with the company now and I will come
+  back on all of them within the week rather than hold the rest of the response. Supporting documents are
+  in the data room; access details are with this note.</p>
+</div>
+
+<h2 class="sec">Structure</h2>
+
+<div class="qa">
+  <div class="qh"><span class="qn">08</span><span class="qt">Closing into an ADGM or DIFC holding company, then syndicating a Delaware SPV. What is the status of the HoldCo?</span></div>
+  <div class="a">
+    <p>We agree the round should close into an offshore holding company, and the shareholders support
+    incorporating in either ADGM or DIFC. The process has not yet been initiated.</p>
+    <p>A Delaware SPV syndicated through Sydecar or an equivalent works from our side, and we are glad to
+    discuss governance that supports the founders.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">09</span><span class="qt">Do we have shareholders agreements and corporate documents for the various entities?</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>The group operates through two entities. <b>Bee Delivery PJSC</b> is a Syrian private joint stock
+    company registered in Damascus under number 18647 dated 22 January 2019, with nominal capital of
+    SYP 23,836,400. <b>Honey Hive LLC</b> is a Syrian limited liability company registered under number
+    20039 dated 1 October 2023, with nominal capital of SYP 66,000,000; its principal asset is a 99.46%
+    holding in Bee Delivery.</p>
+    <p>On the shareholder side, the seed term sheet has been the operative agreement between founders and
+    investors since 2019 and is the basis on which all parties have conducted themselves. No separate
+    shareholders&rsquo; agreement was executed into the corporate records. That was not a matter of any
+    party declining to formalise the relationship, and putting a full shareholders&rsquo; agreement and
+    governance framework in place is a workstream of this round alongside the holding company.</p>
+    <p class="follow">Registrations, constitutional documents, board minutes and share registers are being
+    collected for the data room and will follow.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">10</span><span class="qt">Is there a written assignment of all platform IP into the operating company? If some IP sits with Tradinos, what are the terms?</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>There is no registered intellectual property held by BeeOrder or by any third party, and Tradinos
+    owns no IP over any product operating in BeeOrder.</p>
+    <p class="follow">On the assignment question specifically &mdash; who authored the platform code, whether
+    employment and contractor agreements contain assignment clauses, and the contractual position with
+    Tradinos &mdash; we are assembling the documentation and will come back to you with a complete answer.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">13</span><span class="qt">Will shareholders cooperate with source-of-wealth documentation?</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>Yes. We are confirming the process with each shareholder individually and do not anticipate an
+    issue, and will revert once we have that in writing from all of them.</p>
+  </div>
+</div>
+
+<h2 class="sec">Financials</h2>
+
+<div class="qa">
+  <div class="qh"><span class="qn">01</span><span class="qt">Are audited 2024 and 2025 financials in progress? The audited statements show net losses every year through 2023.</span></div>
+  <div class="a">
+    <p>The 2024 audit is complete. It was issued on 24 May 2026 by Al Samman &amp; Co, Certified
+    Accountants, Damascus, and carries a <b>qualified opinion</b> on three matters. The auditor could not
+    verify opening balances, which did not agree to the prior year&rsquo;s report. Discrepancies between the
+    operational database and the general ledger on settlement between customers, restaurants and drivers
+    meant commission income and the related settlement balances could not be verified. And there was
+    insufficient evidence on the income tax provision.</p>
+    <p>Management has prepared a memo on these matters. In summary, the discrepancies originated in
+    ERP-generated transactions, principally around wasted, cancelled and supplementary orders, compounded
+    by the currency restrictions of the period and a finance function that did not perform sufficient
+    reconciliation. That finance team has since left the company, and the issues were identified by current
+    management through subsequent reconciliation. The auditor obtained sufficient evidence on assets and
+    liabilities, including cash and bank balances, and did not qualify the reported financial position at
+    year end.</p>
+    <p>Two further matters are worth flagging directly. The functional currency changed from US dollars to
+    Syrian pounds with effect from 1 January 2024 under IAS 21. And the 2023 comparatives were
+    retrospectively restated to correct a material error identified in that year; the 2023 statements
+    themselves were audited by a different firm, which issued an unmodified opinion on 29 December 2024.</p>
+    <p>The 2025 audit has not yet commenced.</p>
+    <p class="docs"><b>Data room:</b> audited financial statements 2024; internal memo on the 2024 audit.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">02</span><span class="qt">Audited financials through 2023 exclude delivery fees from gross; management financials from 2024 include them. Useful to see 2020&ndash;2025 like-for-like.</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>Agreed, and the inconsistency you identified is real. In the audited statements for 2023 and earlier,
+    delivery fee income was not recognised as a separate revenue stream &mdash; delivery income and delivery
+    cost were netted against each other and reported together within cost of sales. From 2024, delivery fees
+    are recognised as their own revenue line. That change in treatment, rather than any shift in the
+    underlying business, is what makes the reported series discontinuous.</p>
+    <p>We have restated every year from 2020 onto a single consistent basis: delivery fees presented as
+    revenue throughout, revenue reported net of discounts and refunds.</p>
+    <div class="scroll"><table class="t">
+      <thead><tr><th>Restated, US$</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>2024</th></tr></thead>
+      <tbody>
+        <tr><td>Orders</td><td>388,635</td><td>847,670</td><td>1,161,029</td><td>1,360,786</td><td>1,611,430</td></tr>
+        <tr><td>GMV</td><td>1,850,203</td><td>5,254,471</td><td>9,482,262</td><td>9,927,283</td><td>15,062,001</td></tr>
+        <tr><td>Revenue</td><td>161,316</td><td>509,708</td><td>1,380,883</td><td>1,724,495</td><td>2,729,265</td></tr>
+        <tr><td>Take rate</td><td>8.7%</td><td>9.7%</td><td>14.6%</td><td>17.4%</td><td>18.1%</td></tr>
+        <tr><td>Gross profit</td><td>102,356</td><td>218,094</td><td>654,862</td><td>713,252</td><td>999,850</td></tr>
+      </tbody></table></div>
+    <p>One point of interpretation on this basis: 2024 shows a small net loss where the audited accounts
+    show a net profit of $22,550. The difference is the treatment of discounts and delivery fees, not a
+    difference in performance.</p>
+    <p class="follow">The full monthly statement covering 2020 to 2026 is being finalised &mdash; one
+    presentational point on the 2025 column is being confirmed with our CFO &mdash; and will follow this
+    week.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">03</span><span class="qt">What drove the increase in take rate from 13&ndash;14% in 2023 to over 20% in 2024&ndash;2025?</span></div>
+  <div class="a">
+    <p>Almost entirely the revenue recognition change described above, rather than a change in pricing or
+    unit economics. Because take rate is revenue divided by GMV, moving delivery fees out of cost of sales
+    and into revenue raises the numerator without touching the denominator, so the audited series
+    understates the earlier years relative to the current methodology.</p>
+    <p>On the consistent restated basis the progression is <b>17% in 2023, 18% in 2024 and 20% in
+    2025</b> &mdash; a steady annual step, consistent with the maturing merchant mix and higher delivery fee
+    recovery over the period, rather than a step change. The 2026 plan assumes 20.3%, in line with seven
+    months of actuals.</p>
+    <p class="docs"><b>Data room:</b> Take Rate Trend 2023&ndash;2025, explanatory note.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">04</span><span class="qt">What is the current cash position by entity and currency? What does the cash bridge look like for the last twelve months?</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>Total cash at 30 June 2026 was <b>$424,870</b>:</p>
+    <div class="scroll"><table class="t">
+      <thead><tr><th>Account</th><th>Currency</th><th>Local</th><th>US$</th></tr></thead>
+      <tbody>
+        <tr><td>Bank &mdash; operating</td><td>SYP</td><td>1,087,206</td><td>7,738</td></tr>
+        <tr><td>Bank</td><td>USD</td><td>10,130</td><td>10,130</td></tr>
+        <tr><td>Bank</td><td>AED</td><td>166,854</td><td>45,464</td></tr>
+        <tr><td>Bank</td><td>GBP</td><td>74</td><td>99</td></tr>
+        <tr><td>Bank</td><td>EUR</td><td>920</td><td>1,049</td></tr>
+        <tr><td>Cash on hand</td><td>SYP</td><td>2,905,695</td><td>20,680</td></tr>
+        <tr><td>Cash on hand</td><td>USD</td><td>305,545</td><td>305,545</td></tr>
+        <tr><td>Collection centres</td><td>SYP</td><td>4,800,256</td><td>34,164</td></tr>
+        <tr><td><b>Total</b></td><td></td><td></td><td><b>424,870</b></td></tr>
+      </tbody></table></div>
+    <p>The twelve-month bridge runs from opening cash of $177,930 in July 2025 to $424,870 at 30 June 2026,
+    driven by cumulative operating cash generation against roughly $163,000 of capital expenditure over the
+    period and modest shareholder current account movements. Monthly detail is in the data room.</p>
+    <p class="follow">The split between Honey Hive LLC and Bee Delivery PJSC on the same account-by-account
+    basis will follow.</p>
+    <p class="docs"><b>Data room:</b> cash position and twelve-month bridge, monthly, USD.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">05</span><span class="qt">The deck mentions $1M raised in seed. What was the instrument and receiving entity?</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>The seed round was subscribed in three tranches: preferred equity of $500,000, earnout ordinary
+    shares of $170,000, and an additional ordinary subscription by existing shareholders of $150,000, taken
+    up one year after closing.</p>
+    <p>Funds were received at group level and were not executed as a formal capital increase, though the
+    current capitalisation table and share capital reflect the position after giving effect to all three
+    instruments. The audited 2024 balance sheet carries preferred share capital of $500,000 and common share
+    capital of $1,712,000. Preferred shareholder rights were agreed in the seed term sheet but were not
+    incorporated into a shareholders&rsquo; agreement or the corporate records; addressing that is part of
+    this round.</p>
+    <p class="follow">The three tranches total $820,000 against the $1M cited in the deck. We are
+    reconciling the difference and will confirm the correct figure, and correct the materials if needed.</p>
+  </div>
+</div>
+
+<h2 class="sec">Balance sheet</h2>
+
+<div class="qa">
+  <div class="qh"><span class="qn">06</span><span class="qt">The trademark carries 77% of audited assets. What was the valuation basis? Would the company support revaluing as part of this round?</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>The intangible originates in the 2019 seed round. The pre-money valuation agreed with investors was
+    $1,392,000, and the difference between that valuation and the book value of net assets at the time was
+    recognised as goodwill representing trademark value. It is carried at $1,443,516 in the 2024 audited
+    accounts, which is 82% of total assets of $1,761,081, against total equity of $1,435,928.</p>
+    <p>We recognise this does not represent an asset the company acquired or constructed. The company is
+    open to revaluing it as part of this round; the effect would be to reduce book equity to approximately
+    nil, with no impact on GMV, revenue, EBITDA, cash or any operating metric.</p>
+    <p class="follow">Formal confirmation from the board is being sought and will follow.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">07</span><span class="qt">Do driver wallets pay restaurants up front? Do captains deposit to merchant POS with net settlement? Cash-point settlement?</span></div>
+  <div class="a">
+    <p>Net settlement, on cash orders. The driver pays the merchant the net order value &mdash; gross order
+    value less BeeOrder&rsquo;s commission &mdash; at pickup, then collects the full order value plus the
+    delivery fee from the customer on delivery. The commission therefore sits with the driver, who
+    periodically deposits cash at authorised cash points, and the company collects and reconciles those
+    deposits.</p>
+    <p>Drivers pre-fund a digital wallet, which is what allows them to pay merchants on collection. The
+    company takes its margin at the point of pickup rather than waiting on merchant settlement, so working
+    capital does not scale with order volume.</p>
+  </div>
+</div>
+
+<h2 class="sec">Legal and regulatory</h2>
+
+<div class="qa">
+  <div class="qh"><span class="qn">11</span><span class="qt">What is the status of the SY-TPRA revenue share claim?</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>The revenue share arrangement has been cancelled. Under the current regulation the platform pays a
+    fixed annual licence fee instead. BeeOrder operates under standard licence No. 4, issued on 23 June 2024
+    by the Syrian Telecommunications and Post Regulatory Authority to Bee Delivery Private Joint Stock
+    Company, for the provision of order delivery services through electronic platforms.</p>
+    <p class="follow">The annual fee amount, confirmation that the licence is current, and written
+    confirmation that no historical liability remains under the previous arrangement will follow.</p>
+    <p class="docs"><b>Data room:</b> SY-TPRA standard licence No. 4 of 23 June 2024, Arabic with translation.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">12</span><span class="qt">We should add operational documents including leases, the licence and the related-party agreement to the data room.</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>Agreed. A data room has been established and access is provided with this note. It currently holds
+    the audited financial statements, the internal memo on the 2024 audit, the restated income statement,
+    the cash position and bridge, the SY-TPRA licence and the free zone investment and civil occupancy
+    contract.</p>
+    <p class="follow">Property leases and occupancy documents, the related-party agreement, and corporate
+    records are being added over the coming week.</p>
+  </div>
+</div>
+
+<h2 class="sec">Round terms</h2>
+
+<div class="qa">
+  <div class="qh"><span class="qn">14</span><span class="qt">What ESOP size is contemplated? Have the founders fully vested? Are they open to reverse vesting?</span>
+    <span class="pend">Following</span></div>
+  <div class="a">
+    <p>All founders and certain key employees are fully vested in respect of allocations relating to the
+    seed round and earlier transactions.</p>
+    <p>In July 2025 the board approved the creation of a 5% sweat equity pool. In May 2026 the board
+    approved a grant of 1.2% from that pool, vesting 20% immediately with the remaining 80% in equal annual
+    instalments of 20% over four years. The balance of the pool is unallocated.</p>
+    <p class="follow">The contemplated post-money pool for this round, and the founders&rsquo; position on
+    reverse vesting, will follow.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">15</span><span class="qt">Is the company open to a standard MENA lead package &mdash; board seat, monthly management reporting, protective provisions on related-party transactions?</span></div>
+  <div class="a">
+    <p>Yes. Monthly management reporting is already provided to existing investors, and protective
+    provisions were agreed in the seed term sheet. The company is open to a standard governance package for
+    this round, and expects it to be documented in the round documentation alongside the
+    shareholders&rsquo; agreement.</p>
+  </div>
+</div>
+
+<h2 class="sec">Operations</h2>
+
+<div class="qa">
+  <div class="qh"><span class="qn">16</span><span class="qt">Orders declined from December 2025 to February 2026. Ramadan? What do the March to June actuals show?</span></div>
+  <div class="a">
+    <p>Yes &mdash; Ramadan fell between 17 February and 19 March 2026, and February is the seasonal trough.
+    The recovery since has been considerably stronger than the dip.</p>
+    <div class="scroll"><table class="t">
+      <thead><tr><th>Month</th><th>Orders</th><th>GMV, US$</th><th>Monthly active users</th></tr></thead>
+      <tbody>
+        <tr><td>December 2025</td><td>199,428</td><td>2,361,505</td><td>68,274</td></tr>
+        <tr><td>January 2026</td><td>196,254</td><td>2,312,450</td><td>66,351</td></tr>
+        <tr><td>February 2026</td><td>177,565</td><td>2,113,740</td><td>62,810</td></tr>
+        <tr><td>March 2026</td><td>209,347</td><td>2,577,206</td><td>69,442</td></tr>
+        <tr><td>April 2026</td><td>242,855</td><td>2,659,029</td><td>79,794</td></tr>
+        <tr><td>May 2026</td><td>281,437</td><td>3,030,439</td><td>88,110</td></tr>
+        <tr><td>June 2026</td><td>286,782</td><td>2,915,157</td><td>93,435</td></tr>
+        <tr><td>July 2026</td><td>373,179</td><td>4,170,192</td><td>112,731</td></tr>
+      </tbody></table></div>
+    <p>Peak to trough was 11% over two months. July 2026 was the largest month in the company&rsquo;s
+    history at 373,179 orders &mdash; <b>110% above the February trough and 126% above July 2025</b>.
+    Monthly active users followed the same path, from 62,810 in February to 112,731 in July.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">17</span><span class="qt">How do we determine 65% market share?</span></div>
+  <div class="a">
+    <p>BeeOrder conducts a periodic assessment of the competitive landscape which involves collecting
+    sample data from selected restaurants on order volume through BeeOrder relative to competitors. As of
+    August 2026 the company estimates that it holds 75% of the app-based delivery market across the five
+    cities in which it operates. This is a management estimate rather than an audited figure.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">18</span><span class="qt">I understand $350k per dark store but see $83k of capex in the internal model. I may be misreading.</span></div>
+  <div class="a">
+    <p>You were reading it correctly, and the model has since been rebuilt. The $83,000 was a narrow capital
+    expenditure definition covering equipment and fit-out only, which sat inconsistently with the all-in
+    figure quoted elsewhere.</p>
+    <p>The current model uses <b>$316,000 per store, fully loaded</b> &mdash; fit-out, cold chain and backup
+    power, technology and integration hardware, recruitment and training, permits, opening consumables, the
+    launch campaign, approximately $80,000 of opening inventory and a $100,000 two-year rent prepayment.
+    City hub build costs and the Yango implementation sit alongside this rather than inside it.</p>
+    <p>The current dark store assumptions and projections come from a full operational planning exercise
+    carried out in August 2026. The rollout is rule-driven rather than calendar-driven: a store opens only
+    once the previous store reaches 800 orders per day.</p>
+  </div>
+</div>
+
+<div class="qa">
+  <div class="qh"><span class="qn">19</span><span class="qt">How does management think about e-payment adoption relative to the cash-cycle moat?</span></div>
+  <div class="a">
+    <p>Our approach is market-driven and phased rather than abrupt. We expect the transition to electronic
+    payments to happen gradually, following customer behaviour, merchant readiness and the broader market
+    evolution. In the short to medium term cash is expected to remain the dominant payment method in our
+    market, so we continue to invest in and optimise our cash operations. As adoption increases we will
+    expand our digital payment offering accordingly, ensuring a smooth transition without disrupting the
+    existing ecosystem.</p>
+  </div>
+</div>
+
+<footer><div class="wrap">
+  <p>Confidential. Prepared for Faris Sbahi in connection with the proposed Series A investment in
+  BeeOrder. Contains forward-looking projections which are management estimates and not guarantees of
+  future performance.</p>
+  <p>Financial statements are audited through 2024; the 2024 opinion is qualified, as set out at question 1.
+  2025 figures are management accounts and are not yet audited. Operating data through July 2026.</p>
+</div></footer>
+</div>
+</body></html>
